@@ -37,10 +37,6 @@ This project was created to **practice CSS fundamentals, animation basics, and 3
 
 ---
 
-## 🌐 Live Demo
+## 🎥 Live Demo
 
-Check out the live version of this 3D Web App by clicking the link below:
-
-[![View Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge&logo=web)](https://your-vercel-link.vercel.app/)
-
-
+Check out the app live here: [https://react-movie-app-six-xi.vercel.app/](https://front-end-animation.vercel.app/) 🚀
