@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Web App</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+  
+  <!-- Background Layer -->
+  <div class="layer-blue">
+    <img src="gradient.png" alt="gradient" class="gradient">
+  </div>
+
+  <!-- Main Container -->
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <h1 data-aos="fade-down" data-aos-duration="1500" class="logo">ABHI</h1>
+
+      <nav>
+        <a data-aos="fade-down" data-aos-duration="1500" href="#">COMPANY</a>
+        <a data-aos="fade-down" data-aos-duration="2000" href="#">FEATURES</a>
+        <a data-aos="fade-down" data-aos-duration="2500" href="#">RESOURCES</a>
+        <a data-aos="fade-down" data-aos-duration="3000" href="#">DOCS</a>
+      </nav>
+
+      <button data-aos="fade-down" data-aos-duration="1500" class="btn-signing">SIGN IN</button>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <div class="content">
+        <div data-aos="fade-zoom-in"
+             data-aos-easing="ease-in-back"
+             data-aos-delay="300"
+             data-aos-offset="0"
+             data-aos-duration="1500"
+             class="tag-box">
+          <div class="tag">INTRODUCTION &wedbar;</div>
+        </div>
+
+        <h1 data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="2000">
+          EMAIL FOR <br> DEVELOPERS
+        </h1>
+
+        <p data-aos="fade-zoom-in"
+           data-aos-easing="ease-in-back"
+           data-aos-delay="300"
+           data-aos-offset="0"
+           data-aos-duration="2500"
+           class="description">
+          Built for developers, by developers. Our tools simplify complex workflows, 
+          accelerate deployment, and ensure your applications run securely 
+          and efficiently across every environment.
+        </p>
+
+        <div data-aos="fade-zoom-in"
+             data-aos-easing="ease-in-back"
+             data-aos-delay="300"
+             data-aos-offset="0"
+             data-aos-duration="3000"
+             class="buttons">
+          <a href="#" class="btn-get-started">Documentation &gt;</a>
+          <a href="#" class="btn-signing-main">Get Started &gt;</a>
+        </div>
+      </div>
+    </main>
+
+    <!-- 3D Model -->
+    <spline-viewer data-aos="fade-zoom-in"
+                   data-aos-easing="ease-in-back"
+                   data-aos-delay="300"
+                   data-aos-offset="0"
+                   data-aos-duration="3000"
+                   class="robot-3d"
+                   url="https://prod.spline.design/FbWX395GgdxblBwT/scene.splinecode">
+    </spline-viewer>
+  </div>
+
+  <!-- Scripts -->
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.56/build/spline-viewer.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
